@@ -8,7 +8,7 @@ import pygame
 
 screen = Screen()
 screen.setup(width=600, height=600)
-screen.bgcolor('black')
+screen.bgcolor('#9CAF88')
 screen.title('Snake Game')
 screen.tracer(0)
 clock = pygame.time.Clock()
