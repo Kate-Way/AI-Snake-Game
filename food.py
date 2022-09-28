@@ -5,11 +5,12 @@ class Food(Turtle):
 
     def __init__(self):
         super().__init__()
-        self.shape('circle')
+        self.shape('square')
+        self.tilt(45)
         self.penup()
         # dot size 1/2 of snake head
         self.shapesize(stretch_len=0.5, stretch_wid=0.5)
-        self.color('blue')
+        self.color('black')
         self.speed('fastest')
         # to refresh its own location
         self.refresh()
